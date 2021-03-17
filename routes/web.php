@@ -33,7 +33,7 @@ Route::get('/', function () {
 // });
 
 // Route::view('/hello','/hello');
-// Route::redirect('/','/hello');
+// Route::redirect('//','/hello');
 
 Route::view('/try', 'tryblade.child');
 
